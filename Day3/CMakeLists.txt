@@ -1,6 +1,6 @@
 project("day3")
 
-set(SW_SRCS "day3.cpp" "claim.cpp")
+set(SW_SRCS "day3.cpp" "claim.cpp" "fabric.cpp")
 
 set(CMAKE_CXX_FLAGS "-std=c++14")
 
