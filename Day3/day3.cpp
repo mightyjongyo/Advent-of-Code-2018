@@ -32,4 +32,5 @@ int main(int argc, char**argv) {
     fab->processClaim(c);
   }
   std::cout << "Number of collisions: " << fab->getCollisions() << std::endl;
+  std::cout << "Untouched claim: " << fab->getGoodClaim() << std::endl;
 }
